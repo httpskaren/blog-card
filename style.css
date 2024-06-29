@@ -1,17 +1,80 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'f';
+    font-family: 'f1';
     src: url(fonts/Figtree-VariableFont_wght.ttf);
 }
 
 * {
     margin: 0px;
-    margin: 0px;
-    font-family: 'f';
-    font-size: 1em;
+    padding: 0px;
     font-weight: normal;
+    font-size: 1em;
 }
 
 html, body {
-    background-color: #f6d050;
+    background-color: #F6D050;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 15px 15px 0px 2px black;
+}
+
+nav > img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+nav > h2 {
+    font-family: 'f1';
+    font-weight: 900;
+    background-color: #F6D050;
+    width: 80px;
+    height: 25px;
+    margin: 9px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+nav > p {
+    font-family: 'f1';
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'f1';
+    font-weight: 1000;
+    font-size: 1.3em;
+    padding: 5px 10px;
+}
+
+p {
+    font-family: 'f1';
+    color: gray;
+    text-align: justify;
+    padding: 15px 10px;
+}
+
+footer > img {
+    width: 10%;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+footer > p {
+    font-family: 'f1';
+    font-weight: 800;
+    color: black;
+    position:  relative; left: 3em; bottom: 45px;
 }
