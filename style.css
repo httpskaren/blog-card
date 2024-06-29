@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'f';
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    margin: 0px;
+    font-family: 'f';
+    font-size: 1em;
+    font-weight: normal;
+}
+
+html, body {
+    background-color: #f6d050;
+}
